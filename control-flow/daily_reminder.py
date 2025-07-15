@@ -4,7 +4,7 @@
 # Prompt user for task, priority and time_bound input
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
-time_bound = input("Is it time_bound? (yes/no): ").lower()
+time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 # Process the Task Based on Priority and Time Sensitivity
 
