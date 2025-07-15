@@ -6,7 +6,7 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 # collect operator from user
-operator = input("Choose the operation(+, -, *, /): ")
+operator = input("Choose the operation (+, -, *, /): ")
 
 # Perform the Calculation Using Match Case:
 
