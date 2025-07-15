@@ -22,7 +22,7 @@ match operator:
         print(f"The result is {result}.")
     case "/":
         if num2 == 0:
-            print("Error: Zero Divison!.")
+            print("Cannot divide by zero.")
         else:
             result = num1 / num2
             print(f"The result is {result}.")
