@@ -2,9 +2,9 @@
 # Personal Daily Reminder
 
 # Prompt user for task, priority and time_bound input
-task = input("Input a task description: ")
-priority = input("Task's priority (high, medium, low): ").lower()
-time_bound = input("Is the task time-bound (yes or no): ").lower()
+task = input("Enter your task: ")
+priority = input("Priority (high, medium, low): ").lower()
+time_bound = input("Is it time_bound? (yes or no): ").lower()
 
 # Process the Task Based on Priority and Time Sensitivity
 
