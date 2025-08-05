@@ -7,7 +7,7 @@ Objective: Implement a division calculator that robustly handles errors like div
 def safe_divide(numerator, denominator):
     # Function that performs divsion and handles zero_division_error
     try:
-        result = int(numerator) / int(denominator)
+        result = float(numerator) / float(denominator)
     except ZeroDivisionError as e:
         return "Error: Cannot divide by zero."
     except ValueError as e:
